@@ -22,7 +22,7 @@ class tdList(tk.Tk):
         self.title("TO DO APP")
         self.geometry("500x750")
         
-        task1 = tk.Label(self, text="TASKS FOR TODAY", bg="thistle", fg="black", pady=20, font=("Times",23))
+        task1 = tk.Label(self, text="TASKS FOR TODAY", bg="darkgrey", fg="black", pady=20, font=("Times",23))
         
         self.tasks.append(task1)
         
@@ -36,8 +36,8 @@ class tdList(tk.Tk):
         
         self.bind('<Return>', self.add_task)
         
-        self.backGroundColor_lib = ["palegreen","lightskyblue","mistyrose","lightsalmon","wheat","beige","azure","paleturquoise","lavender","plum","lightcyan"]
-        self.fontcolor_lib = ["black","orangered","maroon","darkcyan","darkslategray","purple","seagreen"]
+        self.backGroundColor_lib = ["whitesmoke","gainsboro"]
+        self.fontcolor_lib = ["black"]
     
     
     def add_task(self, event=None):
