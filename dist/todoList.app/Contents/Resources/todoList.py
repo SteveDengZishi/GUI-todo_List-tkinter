@@ -99,7 +99,13 @@ class tdList(tk.Tk):
 
 if __name__ == "__main__":
     #reading previously saved tasks
-    readfile = open("data.txt","r")
+    try:
+        readfile = open("data.txt","r")
+    except FileNotFoundError:
+        file = open("data.txt","w")
+        file.close()
+        readfile=open("data.txt","r")
+        
     tasks_lst=[]
     for line in readfile:
         line=line.strip()
