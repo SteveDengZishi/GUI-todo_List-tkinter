@@ -9,13 +9,16 @@
 
 ## Installation
 
-#### Building from Source
+#### 1.Run directly from todoList.app
+Double click todoList.app under root directory
+
+#### OR
+
+#### 2.Building from Source
 1. cd into src
 2. py2applet --make-setup todoList.py
 3. python setup.py py2app
 
-#### Run directly from todoList.app
-Double click todoList.app under root directory
 
 
 ## Future work
