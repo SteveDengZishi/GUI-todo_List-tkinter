@@ -5,7 +5,7 @@
 * Written in Python
 * Uses Tkinter lib
 
-<img width="505" alt="screen shot 2017-12-01 at 1 33 06 pm" src="https://user-images.githubusercontent.com/15205433/33497542-42f9529c-d69c-11e7-96c6-4e93fe35c1aa.png">
+<img width="506" alt="screen shot 2017-12-07 at 1 56 08 pm" src="https://user-images.githubusercontent.com/15205433/33733059-722b0024-db56-11e7-8936-fa0948b9cb39.png">
 
 ## Installation
 
