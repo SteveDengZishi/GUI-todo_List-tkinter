@@ -1,3 +1,0 @@
-([('todoList',
-   '/Users/stevedeng/Documents/PyTutor/TodoList/src/dist/todoList',
-   'EXECUTABLE')],)
